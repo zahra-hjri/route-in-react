@@ -4,7 +4,11 @@ import Header from './components/Header/Header';
 import Home from './pages/Home/Home'
 import About from './pages/About/About '
 import Products from './pages/Products/Products';
+// import Footer from './components/Footer/Footer';
 import NoPage from './pages/NoPage/NoPage'
+import { Link } from "react-router-dom";
+
+
 
 import './App.css'
 import './index.css'
@@ -20,8 +24,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/products" element={<Products />} />
     </Routes>
+    
   </BrowserRouter>
-
   )
 }
 

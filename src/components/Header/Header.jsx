@@ -3,16 +3,16 @@ import {BiRestaurant} from "react-icons/bi"
 import { Link } from "react-router-dom";
 
 const Header = () => {
+
     return(
-        <div className="flex justify-between"> 
+        
+        <div className="flex justify-between "> 
             <BiRestaurant className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white cursor-pointer" />
-        <div className="mx-auto">
-            
-            <ul className="flex text-white">
-                <li className="mx-3 text-xs sm:text-sm md:text-base font-bold cursor-pointer"><Link to='/'>Home</Link></li>
-                <li className="mx-3 text-xs sm:text-sm md:text-base font-bold cursor-pointer"><Link to='/about'>About us</Link></li>
-                <li className="mx-3 text-xs sm:text-sm md:text-base font-bold cursor-pointer"><Link to='/products'>Products</Link></li>
-            </ul>
+            {/* <span className="text-white font-mono font-bold">CeteRinG</span> */}
+        <div className="mx-auto mt-5 text-white font-bold z-50">
+                <Link className="mx-1" to='/'>Home</Link>
+                <Link className="mx-3" to='/about'>About us</Link>
+                <Link className="mx-3" to='/products'>Products</Link>
         
         </div>
     

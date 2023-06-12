@@ -1,0 +1,29 @@
+.img1 {
+    background-image: url(../images/gallery-img-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.img2 {
+    background-image: url(../images/gallery-img-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.img3 {
+    background-image: url(../images/gallery-img-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img4 {
+    background-image: url(../images/gallery-img-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,7 @@
+.aboutImg {
+    background-image: url(../images/gallery-img-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
