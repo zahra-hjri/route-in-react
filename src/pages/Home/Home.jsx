@@ -4,7 +4,7 @@ import './Home.css'
 import {BiRestaurant} from "react-icons/bi"
 import { Link } from "react-router-dom";
 import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
+// import Footer from '../../components/Footer/Footer';
 
 
 
@@ -34,11 +34,11 @@ const Home = () => {
           data-te-ripple-color="light">
           Reservation
         </button>
-  <Footer />
       </div>
     </div>
   </div>
 
+  {/* <Footer className="absolute text-blue-400" /> */}
 </div>
 
   )

@@ -1,18 +1,31 @@
 
-// import {BiRestaurant} from "react-icons/bi"
+import {AiFillTwitterSquare , AiFillInstagram , AiFillLinkedin} from "react-icons/ai"
+import {FaPinterestSquare} from "react-icons/fa"
 import { Link } from "react-router-dom";
 
 const Footer = () => {
 
     return(
         
-        <div className="flex justify-between "> 
+        <div className=" flex justify-center"> 
             {/* <BiRestaurant className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white cursor-pointer" /> */}
             {/* <span className="text-white font-mono font-bold">CeteRinG</span> */}
-        <div className="mx-auto mt-5 text-white font-bold z-50">
-                <Link className="mx-1" to='/'>Twitter</Link>
-                <Link className="mx-3" to='/about'>Instagram</Link>
-                <Link className="mx-3" to='/products'></Link>
+        <div className=" mt-5 text-white flex flex-col">
+              <div className="flex justify-center">
+              <Link className="mx-3 text-3xl" to='/https://twitter.com/'>
+                    <AiFillTwitterSquare />
+                </Link>
+                <Link className="mx-3 text-3xl" to='/https://www.instagram.com/'>
+                    <AiFillInstagram />
+                </Link>
+                <Link className="mx-3 text-3xl" to='/https://www.pinterest.com/'>
+                    <FaPinterestSquare />
+                </Link>
+                <Link className="mx-3 text-3xl" to='/https://www.linkedin.com/'>
+                    <AiFillLinkedin />
+                </Link>
+              </div>
+              <p className="text-white text-center py-5">© Copyright Agency and contributors 2023. ABN</p>
         
         </div>
     

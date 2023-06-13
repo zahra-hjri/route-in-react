@@ -10,7 +10,7 @@ const Header = () => {
             <BiRestaurant className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white cursor-pointer" />
             {/* <span className="text-white font-mono font-bold">CeteRinG</span> */}
         <div className="mx-auto mt-5 text-white font-bold z-50">
-                <Link className="mx-1" to='/'>Home</Link>
+                <Link className="mx-3" to='/'>Home</Link>
                 <Link className="mx-3" to='/about'>About us</Link>
                 <Link className="mx-3" to='/products'>Products</Link>
         
