@@ -1,14 +1,9 @@
 import React from 'react'
-// import Header from '../../components/Header/Header'
-import './Home.css'
-import {BiRestaurant} from "react-icons/bi"
+import {SiCodechef} from "react-icons/si"
 import { Link } from "react-router-dom";
 import Header from '../../components/Header/Header';
 // import Footer from '../../components/Footer/Footer';
-
-
-
-
+import './Home.css'
 
 const Home = () => {
 
@@ -16,29 +11,20 @@ const Home = () => {
    
 
     <div
-  className="main relative overflow-hidden bg-cover bg-no-repeat p-10 md:p-12 text-center">
+  className="main bg-cover bg-no-repeat p-10 md:p-12 text-center">
     
     <Header />
-  <div
-    className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed">
-    <div className="flex h-full items-center justify-center">
-
-      <div className="text-white">
-     
-        <h2 className="my-4 mt-0 text-xl sm:text-2xl md:text-4xl font-semibold cursor-pointer">Restaurant</h2>
-        <h4 className="mb-10 text-xl sm:text-2xl md:text-xl font-semibold">Enjoy our food</h4>
-        <button
-          type="button"
-          className="rounded border-2 border-neutral-50 px-4 md:px-7 pb-[5px] pt-[7px] md:pb-[8px] md:pt-[10px] text-sm font-medium text-white uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-white hover:text-black focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-          data-te-ripple-init
-          data-te-ripple-color="light">
-          Reservation
-        </button>
-      </div>
+  <div className='text-center mt-20 flex flex-col'>
+    <div className='flex justify-center'>
+    <p className='text-4xl text-white font-bold w-72 py-5'>Restaurant</p>
+    <SiCodechef className='text-5xl text-white' />
     </div>
+    
+    <p className='text-2xl text-white font-bold w-72 pt-7 mx-auto'>Enjoy it ... :)</p>
+    
+    <button className='text-xl mt-10 px-5 text-center py-2 border w-48 border-white bg-transparent text-white font-bold rounded-lg mx-auto hover:bg-white hover:text-orange-600'><Link to='/products'>Reservation</Link></button>
+  {/* <Footer className='pt-10' /> */}
   </div>
-
-  {/* <Footer className="absolute text-blue-400" /> */}
 </div>
 
   )
