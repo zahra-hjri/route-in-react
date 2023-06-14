@@ -18,7 +18,7 @@ function Todo() {
       
   return (
     
-    <div className='bg-slate-900 h-screen p-10 md:p-12'>
+    <div className='bg-green-800 h-screen p-10 md:p-12'>
       <Header />
        <div className='mt-20'>
        {todolist.slice(0,6).map((todo)=>{

@@ -6,8 +6,13 @@
 
 
 
-.main {
+/* .main {
     background-image: url(../images/gallery-img-2.jpeg);
     height: 100vh;
 
+} */
+
+.mainHome {
+    background-image: url(../images/gallery-img-4.jpeg);
+    height: 100vh;
 }

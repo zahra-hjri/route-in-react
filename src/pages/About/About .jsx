@@ -7,7 +7,7 @@ import './About.css'
 
 const About  = () => {
   return (
-    <div className='bg-yellow-600 h-full p-10 md:p-12'>
+    <div className='bg-green-800 h-full p-10 md:p-12'>
       <Header />
 
      <div className='flex flex-col lg:flex-row py-20'>

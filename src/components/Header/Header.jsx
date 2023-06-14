@@ -84,19 +84,19 @@ const Header = () => {
                     </div>
                     <ul className="MENU-LINK-MOBILE-OPEN font-bold text-white flex flex-col items-center justify-between min-h-[250px]">
                    
-                    <li className=" hover:text-orange-400 flex">
+                    <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
                   <Link to="/">Home</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
                   <Link to="/about">About us</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                     <MdProductionQuantityLimits className="text-xl mx-1" />
                   <Link to="/products">Products</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                   <Link to="/todos">Todo</Link>
                   </li>
                     </ul>
@@ -104,19 +104,19 @@ const Header = () => {
                 </section>
         
                 <ul className="DESKTOP-MENU font-bold font-mono text-white hidden space-x-8 lg:flex">
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
                   <Link to="/">Home</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
                   <Link to="/about">About us</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                     <MdProductionQuantityLimits className="text-xl mx-1" />
                   <Link to="/products">Products</Link>
                   </li>
-                  <li className=" hover:text-orange-400 flex">
+                  <li className=" hover:text-green-400 flex">
                   <Link to="/todos">Todo</Link>
                   </li>
                 </ul>
@@ -139,7 +139,7 @@ const Header = () => {
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
-                background-color: #050e1a;
+                background-color: green;
                 transition: width 2s, height 2s, transform 2s;
               }
             `}</style>
