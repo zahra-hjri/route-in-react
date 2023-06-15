@@ -1,5 +1,6 @@
 import React , {useState , useEffect} from 'react'
 import Header from '../../components/Header/Header'
+import './Todo.css'
 import Footer from '../../components/Footer/Footer'
 
 
@@ -18,12 +19,12 @@ function Todo() {
       
   return (
     
-    <div className='bg-green-800 h-screen p-10 md:p-12'>
+    <div className='todoMain h-screen p-10 md:p-12'>
       <Header />
        <div className='mt-20'>
        {todolist.slice(0,6).map((todo)=>{
-            return<div className='flex p-4 justify-center' key={todo.id}>
-               <p className={`px-2 ${todo.completed ? 'text-red-700 line-through' : 'text-green-500'}`}>{todo.title}</p>
+            return<div className='flex p-4 justify-center font-bold' key={todo.id}>
+               <p className={`px-2 ${todo.completed ? 'text-red-700 line-through' : 'text-green-300'}`}>{todo.title}</p>
                <input type='checkbox' onChange={() => handleOnChangeInput(todo.id)} />
                </div>
         })}

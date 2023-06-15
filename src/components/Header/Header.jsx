@@ -139,7 +139,7 @@ const Header = () => {
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
-                background-color: green;
+                background-color: #7c8c77;
                 transition: width 2s, height 2s, transform 2s;
               }
             `}</style>

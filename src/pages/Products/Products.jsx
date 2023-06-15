@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import {SlBasket} from "react-icons/sl"
 import { useEffect } from 'react'
+import './Products.css'
 
 
 
@@ -16,11 +17,11 @@ const Products = () => {
             .then(json=>setImgData(json))
     } , [])
   return (
-    <div className='bg-green-800 h-full p-10 md:p-12'>
+    <div className='productMain h-full p-10 md:p-12'>
     <Header />
     <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 my-20 place-items-center'>
     {imgData.slice(0,9).map((img)=>{
-        return <div key={img.id} className="w-full h-full max-w-sm bg-green-900 border-green-900 border rounded-lg shadow">
+        return <div key={img.id} className="w-full h-full max-w-sm bg-white border-white border rounded-lg shadow">
     <div className=''>
         <img className="p-8 w-full h-96 " src={img.image} alt="product image" />
     </div>
