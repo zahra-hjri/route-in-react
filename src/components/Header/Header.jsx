@@ -13,42 +13,6 @@ const Header = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
           return (
-        //   <div className="flex justify-between">
-        //       <Link to="/"><img src="../images/yum.svg" alt="logo" /></Link>
-        //     <div
-        //             className="HAMBURGER-ICON space-y-2 pr-60"
-        //             onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
-        //           >
-        //             <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-        //             <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-        //             <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-        //           </div>
-        //           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-        //       <style>{`
-        //      .hideMenuNav {
-        //      display: none;
-        //     }
-        //     .showMenuNav {
-        //     -webkit-text-size-adjust: 100%;
-        //     -webkit-font-smoothing: antialiased;
-        //     font-family: Proxima Nova, Helvetica, Arial, sans-serif;
-        //     font-size: 1.6rem;
-        //     font-weight: 400;
-        //     line-height: 1.4;
-        //     left: -1000px;
-        //     overflow: scroll;
-        //     position: absolute;
-        //     top: -1000px;
-        //     border: none;
-        //     box-sizing: content-box;
-        //     height: 200px;
-        //     margin: 0px;
-        //     padding: 0px;
-        //     width: 200px;
-        //      }
-        //      `}</style>
-        //      </div>
-        //   </div>
             <div className="flex items-center justify-between border-b border-gray-400 py-8 z-50">
               <a href="/">
                 <img src="../images/yum.svg" alt="logo" />
@@ -86,7 +50,7 @@ const Header = () => {
                    
                     <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
-                  <Link to="/">Home</Link>
+                  <Link to="/route-in-react">Home</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
@@ -106,7 +70,7 @@ const Header = () => {
                 <ul className="DESKTOP-MENU font-bold font-mono text-white hidden space-x-8 lg:flex">
                   <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
-                  <Link to="/">Home</Link>
+                  <Link to="/route-in-react">Home</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
@@ -146,20 +110,6 @@ const Header = () => {
             </div>
           );
         }
-        
-        // <div className="flex justify-between "> 
-        //     <BiRestaurant className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white cursor-pointer" />
-        //     {/* <span className="text-white font-mono font-bold">CeteRinG</span> */}
-        //     <HamburgerMenu />
-        //     <div className="mx-auto mt-5 text-white font-bold z-50">
-        //         <Link className="mx-3" to='/'>Home</Link>
-        //         <Link className="mx-3" to='/about'>About us</Link>
-        //         <Link className="mx-3" to='/products'>Products</Link>
-        //         <Link className="mx-3" to='/todos'>Todo</Link>
-        
-        //     </div>
-    
-        // </div>
               
     
 

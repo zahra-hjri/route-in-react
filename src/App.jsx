@@ -16,13 +16,13 @@ function App() {
   <div className='font-mono'>
       <BrowserRouter>
        <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/route-in-react" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/todos" element={<Todo />} />
        </Routes>  
       </BrowserRouter>
-      {/* <HamburgerMenu /> */}
+     
   </div>
   )
 }
