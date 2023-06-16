@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+// import imgData from '../../db/mainData'
 import {SlBasket} from "react-icons/sl"
 import { useEffect } from 'react'
 import './Products.css'
+
 
 
 

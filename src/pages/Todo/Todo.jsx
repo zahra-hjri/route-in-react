@@ -36,9 +36,7 @@ function Todo() {
                </div>
         })}
        </div>
-   <div className='imgTest w-72 h-72 image-full'>
-    
-   </div>
+   <Footer />
     </div>
   )
 }

@@ -7,7 +7,7 @@ const Footer = () => {
 
     return(
         
-        <div className=" flex justify-center"> 
+        <div className=" flex justify-center mt-16 mb-18"> 
             {/* <BiRestaurant className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white cursor-pointer" /> */}
             {/* <span className="text-white font-mono font-bold">CeteRinG</span> */}
         <div className=" mt-5 text-white flex flex-col">
