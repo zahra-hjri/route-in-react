@@ -14,9 +14,9 @@ const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
           return (
             <div className="flex items-center justify-between border-b border-gray-400 py-8 z-50">
-              <a href="/">
-                <img src="../images/yum.svg" alt="logo" />
-              </a>
+              
+                <img src="/images/yum.svg" alt="logo" />
+            
               <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
                   <div
@@ -50,7 +50,7 @@ const Header = () => {
                    
                     <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
-                  <Link to="/route-in-react">Home</Link>
+                  <Link to="/route-in-react/">Home</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
@@ -70,7 +70,7 @@ const Header = () => {
                 <ul className="DESKTOP-MENU font-bold font-mono text-white hidden space-x-8 lg:flex">
                   <li className=" hover:text-green-400 flex">
                   <HiHome className="text-xl mx-1" />
-                  <Link to="/route-in-react">Home</Link>
+                  <Link to="/route-in-react/">Home</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
@@ -93,7 +93,7 @@ const Header = () => {
               .showMenuNav {
                 display: block;
                 position: fixed;
-                width: 40%;
+                width: 50%;
                 height: 100vh;
                 top: 0;
                 right: 0;
