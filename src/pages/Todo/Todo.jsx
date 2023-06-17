@@ -5,25 +5,26 @@ import Footer from '../../components/Footer/Footer'
 
 
 function Todo() {
-    const [todolist , setTodoList] = useState([])
+  const [todolist , setTodoList] = useState([])
 
-    const handleOnChangeInput = (todoId)=>{
-        const findTodo = todolist.find((mainTodo)=>{
-          return todoId === mainTodo.id;
-        })
-        if(findTodo.completed){
-          console.log("true")
-        }else{
-          console.log("false")
-        }
+  const handleOnChangeInput = (todoId)=>{
+    const findTodo = todolist.find((mainTodo)=>{
+      return todoId === mainTodo.id;
+    })
+    if(findTodo.completed){
+      console.log("true")
+    }else{
+      console.log("false")
     }
-    useEffect(() => {
-        console.log("hi")
-        fetch('https://jsonplaceholder.typicode.com/todos')
+  }
+  useEffect(() => {
+      fetch('https://jsonplaceholder.typicode.com/todos')
       .then(response => response.json())
       .then(json => setTodoList(json))
       }, []);
-      
+    
+  
+
   return (
     
     <div className='todoMain h-full p-10 md:p-12'>

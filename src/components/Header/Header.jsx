@@ -5,6 +5,7 @@ import { useState } from "react"; // import state
 import {HiHome} from "react-icons/hi"
 import {SiAppwrite} from "react-icons/si"
 import {MdProductionQuantityLimits} from "react-icons/md"
+import {FaPizzaSlice} from "react-icons/fa"
 
 
 
@@ -13,7 +14,7 @@ const Header = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
           return (
-            <div className="flex items-center justify-between border-b border-gray-400 py-8 z-50">
+            <div className="flex items-center justify-between border-b border-gray-400 py-4">
               <Link to="/route-in-react/">
                 <img src="images/yum.svg" alt="logo" />
               </Link>
@@ -63,6 +64,10 @@ const Header = () => {
                   <Link to="/route-in-react/products">Products</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
+                    <FaPizzaSlice className="text-xl mx-1" />
+                  <Link to="/route-in-react/productsApi">ProductsApi</Link>
+                  </li>
+                  <li className=" hover:text-green-400 flex">
                   <Link to="/route-in-react/todos">Todo</Link>
                   </li>
                     </ul>
@@ -81,6 +86,10 @@ const Header = () => {
                   <li className=" hover:text-green-400 flex">
                     <MdProductionQuantityLimits className="text-xl mx-1" />
                   <Link to="/route-in-react/products">Products</Link>
+                  </li>
+                  <li className=" hover:text-green-400 flex">
+                    <FaPizzaSlice className="text-xl mx-1" />
+                  <Link to="/route-in-react/productsApi">ProductsApi</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                   <Link to="/route-in-react/todos">Todo</Link>
