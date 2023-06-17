@@ -14,9 +14,9 @@ const Home = () => {
     
     <Header />
   <div className='text-center mt-20 flex flex-col'>
-    <div className='flex justify-center'>
-    <p className='text-4xl text-white font-bold w-72 py-5'>Restaurant</p>
-    <SiCodechef className='text-5xl text-white  p-1 rounded-full' />
+    <div className='flex justify-center py-10'>
+    <p className='text-4xl text-white font-bold w-72 pt-3'>Restaurant</p>
+    <SiCodechef className='text-5xl text-white rounded-full' />
     </div>
     
     <p className='text-2xl text-white font-bold w-72 pt-7 mx-auto'>Enjoy it ... :)</p>
