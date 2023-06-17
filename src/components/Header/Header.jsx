@@ -14,8 +14,10 @@ const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
           return (
             <div className="flex items-center justify-between border-b border-gray-400 py-8 z-50">
-              
-                <img src="/images/yum.svg" alt="logo" />
+              <Link to="/route-in-react/">
+                <img src="images/yum.svg" alt="logo" />
+              </Link>
+                
             
               <nav>
                 <section className="MOBILE-MENU flex lg:hidden">

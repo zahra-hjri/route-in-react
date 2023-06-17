@@ -1,3 +1,7 @@
 .todoMain {
     background-color: #7d9675;
 }
+
+.imgTest{
+    background-image: url(/public/images/gallery-img-3.jpeg)
+}

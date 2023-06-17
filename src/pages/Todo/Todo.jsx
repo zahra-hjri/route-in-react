@@ -26,9 +26,9 @@ function Todo() {
       
   return (
     
-    <div className='todoMain h-screen p-10 md:p-12'>
+    <div className='todoMain h-full p-10 md:p-12'>
       <Header />
-       <div className='mt-20'>
+       <div className='mt-20 '>
        {todolist.slice(0,6).map((todo)=>{
             return<div className='flex p-4 justify-center font-bold' key={todo.id}>
                <p className={`px-2 ${todo.completed ? 'text-red-700 line-through' : 'text-green-800'}`}>{todo.title}</p>
@@ -36,7 +36,9 @@ function Todo() {
                </div>
         })}
        </div>
-   
+   <div className='imgTest w-72 h-72 image-full'>
+    
+   </div>
     </div>
   )
 }
