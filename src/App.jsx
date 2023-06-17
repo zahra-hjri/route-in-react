@@ -17,9 +17,9 @@ function App() {
       <BrowserRouter>
        <Routes>
         <Route path="/route-in-react" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/todos" element={<Todo />} />
+        <Route path="/route-in-react/about" element={<About />} />
+        <Route path="/route-in-react/products" element={<Products />} />
+        <Route path="/route-in-react/todos" element={<Todo />} />
        </Routes>  
       </BrowserRouter>
      

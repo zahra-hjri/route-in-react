@@ -54,14 +54,14 @@ const Header = () => {
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
-                  <Link to="/about">About us</Link>
+                  <Link to="/route-in-react/about">About us</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <MdProductionQuantityLimits className="text-xl mx-1" />
-                  <Link to="/products">Products</Link>
+                  <Link to="/route-in-react/products">Products</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
-                  <Link to="/todos">Todo</Link>
+                  <Link to="/route-in-react/todos">Todo</Link>
                   </li>
                     </ul>
                   </div>
@@ -74,14 +74,14 @@ const Header = () => {
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <SiAppwrite className="text-xl mx-1" />
-                  <Link to="/about">About us</Link>
+                  <Link to="/route-in-react/about">About us</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
                     <MdProductionQuantityLimits className="text-xl mx-1" />
-                  <Link to="/products">Products</Link>
+                  <Link to="/route-in-react/products">Products</Link>
                   </li>
                   <li className=" hover:text-green-400 flex">
-                  <Link to="/todos">Todo</Link>
+                  <Link to="/route-in-react/todos">Todo</Link>
                   </li>
                 </ul>
               </nav>
@@ -110,8 +110,5 @@ const Header = () => {
             </div>
           );
         }
-              
-    
-
 
 export default Header;
