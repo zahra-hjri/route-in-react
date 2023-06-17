@@ -1,7 +1,7 @@
 import React , {useState , useEffect} from 'react'
 import Header from '../../components/Header/Header'
-import './Todo.css'
 import Footer from '../../components/Footer/Footer'
+import './Todo.css'
 
 
 function Todo() {
@@ -12,9 +12,12 @@ function Todo() {
       return todoId === mainTodo.id;
     })
     if(findTodo.completed){
-      console.log("true")
+      const falsyTodo = (findTodo.completed = false)
+      setTodoList([...todolist ,falsyTodo])
     }else{
-      console.log("false")
+      const trueTodo = (findTodo.completed = true)
+      setTodoList([...todolist ,trueTodo])
+
     }
   }
   useEffect(() => {
@@ -30,10 +33,10 @@ function Todo() {
     <div className='todoMain h-full p-10 md:p-12'>
       <Header />
        <div className='mt-20 '>
-       {todolist.slice(0,6).map((todo)=>{
+       {todolist.slice(0,9).map((todo)=>{
             return<div className='flex p-4 justify-center font-bold' key={todo.id}>
                <p className={`px-2 ${todo.completed ? 'text-red-700 line-through' : 'text-green-800'}`}>{todo.title}</p>
-               <input type='checkbox' onChange={() => handleOnChangeInput(todo.id)} />
+               <input type='checkbox' checked={todo.completed ? true : false} onChange={() => handleOnChangeInput(todo.id)} />
                </div>
         })}
        </div>
