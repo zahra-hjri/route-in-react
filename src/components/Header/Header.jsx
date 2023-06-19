@@ -98,6 +98,7 @@ const Header = () => {
               </nav>
               <style>{`
               .hideMenuNav {
+                transition: display 0.5s ease;
                 display: none;
                 
               }
@@ -115,7 +116,8 @@ const Header = () => {
                 justify-content: space-evenly;
                 align-items: center;
                 background-color: #7c8c77;
-                transition: width 2s, height 2s, transform 2s;
+                transition: all 0.5s ease;
+                
               }
             `}</style>
             </div>
