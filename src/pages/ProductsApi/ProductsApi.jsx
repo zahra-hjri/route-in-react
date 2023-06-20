@@ -7,13 +7,18 @@ import './ProductsApi.css'
 const ProductsApi = () => {
 
     const [productList , setProductList] = useState([])
+    // const [resultProduct , setResultProduct] = useState([])
       useEffect(() => {
         fetch('https://api.spoonacular.com/recipes/complexSearch?apiKey=62d5cb0a467b48d68ebf1d66478a4b74&query=pasta')
       .then(response => response.json())
       .then(json => setProductList(json))
       }, []); 
-      const mainResults = productList.results
-      console.log("yee",mainResults)
+      
+      const mainResults = productList.results;
+      console.log(mainResults)
+    // setResultProduct(productList.results)
+    //   console.log("newwww",resultProduct)
+
 
 
   return (

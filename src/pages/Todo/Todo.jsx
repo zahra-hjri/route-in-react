@@ -1,6 +1,7 @@
 import React , {useState , useEffect} from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import { todo } from '../../api/todo'
 import './Todo.css'
 
 
@@ -21,9 +22,8 @@ function Todo() {
     }
   }
   useEffect(() => {
-      fetch('https://jsonplaceholder.typicode.com/todos')
-      .then(response => response.json())
-      .then(json => setTodoList(json))
+     todo(setTodoList)
+
       }, []);
     
   
