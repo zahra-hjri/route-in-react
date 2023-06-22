@@ -19,9 +19,9 @@ const Home = () => {
     <SiCodechef className='text-5xl text-white rounded-full' />
     </div>
     
-    <p className='text-2xl text-white font-bold w-72 pt-7 mx-auto'>Enjoy it ... :)</p>
+    <p className='text-2xl text-white font-bold w-72 pt-2 mx-auto'>Enjoy it ... :)</p>
     
-    <button className='text-xl mt-16 px-5 text-center py-2 border w-48 border-white bg-white font-extrabold rounded-lg mx-auto '><Link to='/products'>Reservation</Link></button>
+    <button className='text-xl mt-10 px-5 text-center py-2 border w-48 border-white bg-white font-extrabold rounded-lg mx-auto '><Link to='/products'>Reservation</Link></button>
   
   </div>
 </div>
