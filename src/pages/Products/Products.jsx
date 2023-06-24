@@ -11,7 +11,7 @@ const Products = () => {
   return (
     <div className='productMain h-full p-10 md:p-12'>
     <Header />
-    <div className='grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4 my-20 place-items-center'>
+    <div className='grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-8 my-20 place-items-center'>
     {imgData.map((img)=>{
         return <div key={img.id} className="w-full max-w-xs bg-white border-white border rounded-lg shadow">
     <div className=''>
