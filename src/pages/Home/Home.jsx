@@ -21,7 +21,7 @@ const Home = () => {
     
     <p className='text-2xl text-white font-bold w-72 pt-2 mx-auto'>Enjoy it ... :)</p>
     
-    <button className='text-xl mt-10 px-5 text-center py-2 border w-48 border-white bg-white font-extrabold rounded-lg mx-auto '><Link to='/products'>Reservation</Link></button>
+    <button className='text-xl mt-10 px-5 text-center py-2 border w-48 border-white bg-white font-extrabold rounded-lg mx-auto '><Link to='/route-in-react/products'>Reservation</Link></button>
   
   </div>
 </div>
