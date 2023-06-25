@@ -1,80 +1,101 @@
- const imgData = [
+ const Data = [
     {
       id: 1,
       name: "sandwich",
       price: 8,
       category:"fast",
-      url:"./images/gallery-img-1.jpeg",
+      url:"../images/gallery-img-1.jpeg",
+      description:"Making a sandwich is a relatively simple Making a sandwich is a relatively simple process. process. Here are some basic steps to make a classic sandwich"
     },
     {
       id: 2,
       name: "pancake",
       price: 5,
       category:"home",
-      url:"./images/gallery-img-2.jpeg",
+      url:"../images/gallery-img-2.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic steps to make a classic sandwich"
+
     },
     {
       id: 3,
       name: "pizza",
       price: 12,
       category:"fast",
-      url:"./images/gallery-img-3.jpeg"
+      url:"../images/gallery-img-3.jpeg",
+      description:"Making a sandwich is a relatively simple Making a sandwich is a relatively simple process. process. Here are some basic steps to make a classic sandwich"
+
     },
     {
       id: 4,
       name: "meat",
       price: 15,
       category:"home",
-      url:"./images/gallery-img-4.jpeg",
+      url:"../images/gallery-img-4.jpeg",
+      description:"Making a sandwich is a relatively simple process Making a sandwich is a relatively simple process.. Here are some basic steps to make a classic sandwich"
+
     },
     {
       id: 5,
       name: "egg",
       price: 5,
       category:"breakfast",
-      url:"./images/gallery-img-5.jpeg",
+      url:"../images/gallery-img-5.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are Making a sandwich is a relatively simple process. some basic steps to make a classic sandwich"
+
     },
     {
       id: 6,
       name: "meat",
       price: 21,
       category:"home",
-      url:"./images/img11.jpeg",
+      url:"../images/img11.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are Making a sandwich is a relatively simple process. some basic steps to make a classic sandwich"
+
     },
     {
       id: 7,
       name: "meat",
       price: 29,
       category:"home",
-      url:"./images/img2.jpeg",
+      url:"../images/img2.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic steps Making a sandwich is a relatively simple process. to make a classic sandwich"
+
     },
     {
       id: 8,
       name: "salt",
       price: 3,
       category:"home",
-      url:"./images/img4.jpeg",
+      url:"../images/img4.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic steps to make a classic sandwich Making a sandwich is a relatively simple process."
+
     },
     {
       id: 9,
       name: "chiken",
       price: 17,
       category:"breakfast",
-      url:"./images/img7.jpeg",
+      url:"../images/img7.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic steps to make a classic sandwich"
+
     },
     {
       id: 10,
       name: "deserv",
       price: 30,
       category:"breakfast",
-      url:"./images/img8.jpeg",
+      url:"../images/img8.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic steps to make aMaking a sandwich is a relatively simple process. classic sandwich"
+
     },
     {
       id: 11,
       name: "meat",
       price: 18,
       category:"home",
-      url:"./images/img9.jpeg",
+      url:"../images/img9.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are some basic step Making a sandwich is a relatively simple process. to make a classic sandwich"
+
 
     },
     {
@@ -82,9 +103,11 @@
       name: "egg",
       price: 6,
       category:"breakfast",
-      url:"./images/img10.jpeg",
+      url:"../images/img10.jpeg",
+      description:"Making a sandwich is a relatively simple process. Here are Making a sandwich is a relatively simple process.Making a sandwich is a relatively simple process. some basic steps to make a classic sandwich"
+
 
     },
   ];
-  export default imgData;
+  export default Data;
   

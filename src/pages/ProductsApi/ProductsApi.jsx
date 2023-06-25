@@ -22,7 +22,7 @@ const ProductsApi = () => {
 
 
   return (
-    <div className='productMain h-full p-10 md:p-12'>
+    <div className='productMain h-screen p-10 md:p-12'>
     <Header />
     {/* <div>
         {mainResults.map((res)=>{
