@@ -9,7 +9,7 @@ import './Products.css'
 
 const Products = () => {
     return (
-        <div className='productMain h-full p-10 md:p-12'>
+        <div className='productMain h-full p-4'>
             <Header />
             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-20 gap-5 px-20 h-full'>
            
