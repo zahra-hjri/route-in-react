@@ -16,7 +16,7 @@ const Header = () => {
           return (
             <div className="flex items-center justify-between border-b border-gray-400 py-4">
               <Link to="/route-in-react/">
-                <img src="../yum.svg" alt="logo" />
+                <img src="/yum.svg" alt="logo" />
               </Link>
                 
             
