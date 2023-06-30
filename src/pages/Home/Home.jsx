@@ -10,7 +10,7 @@ const Home = () => {
    
 
     <div
-  className="mainHome bg-cover bg-no-repeat p-10 md:p-12 text-center">
+  className="mainHome bg-cover bg-no-repeat p-10 md:p-12 text-center h-screen">
     
     <Header />
   <div className='text-center mt-20 flex flex-col'>

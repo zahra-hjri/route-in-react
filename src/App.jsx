@@ -20,8 +20,8 @@ function App() {
   return (
   <div className='font-mono'>
      <section>
-    {/* <Header /> */}
      <BrowserRouter>
+    {/* <Header /> */}
        <Routes>
         <Route path="/route-in-react/" element={<Home />} />
         <Route path="/route-in-react/about" element={<About />} />
@@ -30,9 +30,9 @@ function App() {
         <Route path="/route-in-react/todos" element={<Todo />} />
         <Route path="/route-in-react/detail/:id" element={<Detail />} />
        </Routes>  
+     {/* <Footer /> */}
       </BrowserRouter>
      </section>
-     {/* <Footer /> */}
   </div>
   )
 }

@@ -4,7 +4,7 @@
       name: "sandwich",
       price: 8,
       category:"fast",
-      url:"/gallery-img-1.jpeg",
+      url:"../gallery-img-1.jpeg",
       description:"Making a sandwich is a relatively simple Making a sandwich is a relatively simple process. process. Here are some basic steps to make a classic sandwich"
     },
     {
@@ -103,7 +103,7 @@
       name: "egg",
       price: 6,
       category:"breakfast",
-      url:"/img10.jpeg",
+      url:"../img10.jpeg",
       description:"Making a sandwich is a relatively simple process. Here are Making a sandwich is a relatively simple process.Making a sandwich is a relatively simple process. some basic steps to make a classic sandwich"
 
 
