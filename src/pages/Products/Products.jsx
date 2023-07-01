@@ -9,9 +9,9 @@ import './Products.css'
 
 const Products = () => {
     return (
-        <div className='productMain h-full p-4 sm:p-6 md:p-12'>
+        <div className='productMain h-full p-10 md:p-12'>
             <Header />
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-20 gap-5 px-20 h-full'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-16 gap-5 px-2 md:px-10 h-full'>
            
            {Data.map((product)=>{
              return(
